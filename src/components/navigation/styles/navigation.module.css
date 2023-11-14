@@ -1,0 +1,69 @@
+.navigation,
+.universal_navigation,
+.site_navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.navigation {
+  flex-direction: column;
+}
+
+.universal_navigation {
+  background: #000;
+  color: #fff;
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.site_navigation {
+  padding: 32px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.rha_logo {
+  max-width: 104px;
+  width: 100%;
+  height: auto;
+}
+
+.navigation_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 48px;
+  width: 100%;
+}
+
+.navigation_list p {
+  font-size: 14px;
+}
+
+.navigation_list button {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: 0.23px;
+  fill: #fff;
+  color: #fff;
+  background-color: #484440;
+  padding: 10px 30px 10px 30px;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation_list {
+    gap: 8px;
+  }
+}
