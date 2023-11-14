@@ -1,0 +1,28 @@
+.footer {
+  background: #e9edf0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 64px 0;
+  gap: 32px;
+}
+
+.footer hr {
+  width: 100%;
+  border-top: 1px solid #d8dcdf;
+}
+
+.footer p {
+  color: #aeaeae;
+  font-size: 10px;
+  text-align: center;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 650px;
+}

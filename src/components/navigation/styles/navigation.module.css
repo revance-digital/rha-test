@@ -9,6 +9,9 @@
 
 .navigation {
   flex-direction: column;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .universal_navigation {
@@ -19,6 +22,8 @@
 }
 
 .site_navigation {
+  background: #fff;
+  color: #000;
   padding: 32px 0;
 }
 
@@ -47,19 +52,6 @@
 
 .navigation_list p {
   font-size: 14px;
-}
-
-.navigation_list button {
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: uppercase;
-  line-height: 18px;
-  letter-spacing: 0.23px;
-  fill: #fff;
-  color: #fff;
-  background-color: #484440;
-  padding: 10px 30px 10px 30px;
-  border: none;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,7 +1,6 @@
 :root {
-content: "";
+  content: "";
 }
-
 
 * {
   box-sizing: border-box;
@@ -12,24 +11,32 @@ content: "";
 html,
 body {
   max-width: 100vw;
-  overflow-x: hidden;
 }
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-   /* system serif font stack */
-  font-family: "Apple Garamond",
-    "Baskerville",
-    "Times New Roman",
-     "Droid Serif",
-     "Times",
-     "Source Serif Pro",
-     serif;;
+  /* system serif font stack */
+  font-family: "Apple Garamond", "Baskerville", "Times New Roman", "Droid Serif",
+    "Times", "Source Serif Pro", serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+button {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: 0.23px;
+  fill: #fff;
+  color: #fff;
+  background-color: #484440;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  width: fit-content;
 }

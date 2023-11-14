@@ -1,12 +1,15 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import Navigation from "@/components/navigation";
+import Hero from "@/components/hero";
+import DNA_Banner from "@/components/banners/dna";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
     <>
       <Navigation />
-      <div>website go here</div>
+      <Hero />
+      <DNA_Banner />
+      <Footer />
     </>
   );
 }
